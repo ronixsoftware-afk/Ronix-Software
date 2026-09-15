@@ -35,6 +35,31 @@
 
         .html-10-side h5{
             left:12.5rem;
+            position: fixed;
+            top: 50%;
+            transform: translateY(-50%) rotate(-90deg);
+            transform-origin: left center;
+            font-size: 0.95rem;
+            font-weight: 700;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            margin: 0;
+            white-space: nowrap;
+            z-index: 1000;
+        }
+        .html-10-side h5 a {
+            color: #000;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        .html-10-side h5 a:hover {
+            color: var(--ronix-aqua);
+        }
+        .html-10-side h5.portfolio-label {
+            top: 62%;
+        }
+        .html-10-side h5.contact-label {
+            top: 38%;
         }
         
         .html-9-container-5 {
@@ -402,7 +427,12 @@
 <div class="html-10-container-1" id="container-4">
     
     <div class="logo-container html-10-logo" >
-        <a href="index.html"><img src="logo.png" alt="" class="logo html-10" style="margin-right:8rem;"></a>
+        <a href="index.html"><img src="logo.png" alt="" class="logo html-10"></a>
+    </div>
+
+    <div class="html-10-side">
+        <h5 class="contact-label"><a href="mailto:hello@ronixsoftware.com">Contact</a></h5>
+        <h5 class="portfolio-label"><a href="#portfolio">Portfolio</a></h5>
     </div>
   
     
