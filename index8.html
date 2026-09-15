@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ronix Software</title> <link rel="icon" type="image/png" href="logo.png"> 
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responisve.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        :root {
+            --ronix-aqua: #00BFFF;
+            --ronix-text-dark: #555555;
+            --ronix-background: #F2F2F7;
+            --placeholder-color: #6c757d;
+        }
+
+        .html-8-container-1 {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            text-align: left;
+            margin-inline: 5rem; 
+            color: rgb(61, 61, 61);
+            padding-left: 4rem;
+
+            padding-block: 2rem; /* Reduced padding-block */
+            margin-top: 3.2rem !important; /* Reduced margin-top */
+            background-color: var(--ronix-background);
+            margin-bottom: 2rem; /* Reduced margin-bottom */
+        }
+     
+        .icons-contact{
+            color: rgb(108, 117, 125);
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+        .icons-contact:hover{
+            background: linear-gradient(to bottom, #7db1f1, #00E3FF) !important;
+            -webkit-background-clip: text !important;
+            background-clip: text !important;
+            color: transparent !important;
+
+        }
+        .html-8-container {
+            width:100%;
+            margin: 0% auto;
+            margin-left: -500rem;
+        }
+        .html-8-side h5{
+            left:5.5rem;
+            font-weight:700 !important;
+        }
+
+        .main-content {
+            padding-top: 1rem; /* Reduced padding-top */
+            padding-bottom: 3rem; /* Reduced padding-bottom */
+            padding-left: 100px;
+        }
+
+        /* Utility class for aqua text */
+        .text-aqua {
+            color: var(--ronix-aqua) !important;
+        }
+        .text-paragraph {
+            color: var(--ronix-text-dark);
+        }
+
+        /* --- HEADING SPACE REDUCTION --- */
+        
+        .form-control-custom-quote {
+            border-top: none !important;
+            border-left: none !important;
+            border-right: none !important;
+            background-color: transparent !important;
+            border-radius: 0 !important;
+            padding-left: 0 !important;
+            padding-right: 0 !important;
+            border-bottom: 1px solid #ced4da;
+            transition: border-color 0.3s;
+            color: var(--placeholder-color) !important;
+            font-size: 0.9rem;
+            font-weight: 500;
+            padding-bottom: 1px;
+            padding-top: 1px;
+        }
+        .form-control-custom-quote:focus {
+            box-shadow: none !important;
+            border-color: var(--ronix-aqua) !important;
+            outline: none;
+        }
+
+        /* Vertical Gaps Minimized for low height (from card section) */
+        .row.mb-4.g-4 {
+            margin-bottom: 0.2rem !important; 
+        }
+
+        .row.mb-5.pt-3 {
+            margin-bottom: 0.8rem !important; 
+            padding-top: 0.3rem !important; 
+        }
+
+        /* Link font size (compact) */
+        .mb-4 a.text-aqua, .mb-3 a.text-aqua, .btn-quote-submit {
+            font-size: 1rem !important;
+            margin-top: 0.2rem !important; 
+            display: inline-block;
+        }
+
+        /* Submit buttons re-styled to match the old "text link" look, now real buttons */
+        .btn-quote-submit {
+            background: none;
+            border: none;
+            padding: 0;
+            color: var(--ronix-aqua) !important;
+            font-weight: bold;
+            text-decoration: none;
+            font-size: 1.1rem !important;
+            line-height: 1;
+        }
+        .btn-quote-submit:hover {
+            text-decoration: underline;
+        }
+        
+        /* Card Headings size wahi rakha, margin kam kiya (Low Height) */
+        .bg-white h2 {
+            font-size: 1.5rem !important;
+            margin-bottom: 0.8rem !important; 
+        }
+        
+        /* Heading and Paragraph space reduction */
+        .mb-3 h1 {
+            font-size: 3rem !important;
+            margin-bottom: 0.5rem !important; /* Reduced margin below H1 */
+        }
+        .mb-3 p {
+            font-size: 1.1rem !important; /* Slightly smaller font */
+            margin-bottom: 0.5rem !important; /* Reduced margin below paragraph */
+        }
+        
+        /* Custom style for Select fields */
+        .form-select-custom {
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+            background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%236c757d' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m2 5 6 6 6-6'/%3e%3c/svg%3e");
+            background-repeat: no-repeat;
+            background-position: right 0.5rem center;
+            background-size: 12px 9px;
+            color: var(--placeholder-color);
+            padding-right: 1.5rem !important;
+        }
+        .form-select-custom option {
+            color: #000;
+        }
+
+        /* --- Get in Touch info list (new) --- */
+        .touch-info-list {
+            list-style: none;
+            padding: 0;
+            margin: 0 0 1.25rem 0;
+        }
+        .touch-info-list li {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            margin-bottom: 0.9rem;
+        }
+        .touch-info-list i {
+            width: 1.4rem;
+            text-align: center;
+            color: var(--ronix-aqua);
+            font-size: 1.1rem;
+        }
+        .touch-info-list a, .touch-info-list span {
+            color: var(--ronix-text-dark);
+            text-decoration: none;
+            font-size: 0.95rem;
+            font-weight: 500;
+        }
+        .touch-info-list a:hover {
+            color: var(--ronix-aqua);
+        }
+
+        /* Inline success/error message shown after AJAX submit */
+        .form-feedback {
+            font-size: 0.9rem;
+            font-weight: 600;
+            margin-top: 0.75rem;
+            display: none;
+        }
+        .form-feedback.is-success { color: #1a9e4e; display: block; }
+        .form-feedback.is-error { color: #d9453d; display: block; }
+
+        /* Honeypot field must stay invisible to humans, visible to bots */
+        .hp-field {
+            position: absolute;
+            left: -9999px;
+            top: -9999px;
+        }
+        
+        /* End of custom styles for size */
+        
+        
+        /* Fixed Footer Styling (Wahi rakha hai) */
+        .fixed-footer {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 1030;
+            font-size: 0.9rem;
+        }
+        .fixed-footer i {
+            margin-right: 15px;
+            cursor: pointer;
+        }
+        
+    
+        @media (max-width: 1024px){
+            .fixed-footer {
+                flex-direction: column;
+                text-align: center;
+                padding: 10px;
+                padding-bottom: 8rem !important;
+            }
+            .html-8-logo{
+                margin-left: -12rem !important;
+            }
+            .html-8{
+                margin-left: 8rem !important;
+            }
+            .html-8-container-1{
+                margin-top: -8rem !important;
+                padding-bottom: 1rem !important;
+              
+            }
+            .contact,.text-paragraph{
+                margin-left: 1rem !important;
+            }
+  .logo-container{
+            width:100% !important;
+            margin-left: -3rem !important; /* Resetting the -18rem inline style */
+            margin-right: 0 !important;
+      
+          padding-inline:15rem !important ;
+        }
+          .html-8{
+            margin-left: -6rem !important;
+          }
+        }
+        @media (max-width:390px){
+            .html-8{
+                margin-left: -8rem !important;
+            }
+            .html-8-container-1{
+padding-bottom: 2rem !important;
+               
+            }
+        }
+        @media (max-width:344px){
+            .html-8{
+                margin-left: -8rem !important;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+
+<div class="html-8-container-1">
+    <div class="main-content" >
+
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                <div class="col-12 col-xl-10">
+
+                    <div class="mb-3 text-center text-md-start text-center-sm">
+                        <h1 class="display-1 fw-bolder text-black mb-1">
+                            <div class="logo-container html-8-logo" style="margin-left: -18rem; ">
+                                <a href="index.html"><img src="logo.png" alt="" class="logo html-8" style="margin-right:8rem;" ></a>
+                            </div>
+                            <div class="sidebar-text html-8-side" style="margin-top: -1rem;">
+                                <h5 style="font-size: large;"><a href="index10.html" class="text-decoration-none text-dark">PORTFOLIO</a> <a href="index8.html" class="contact-active text-decoration-none text-dark">CONTACT</a></h5>
+                            </div>
+                            <span class="text-aqua contact" style="font-weight: bolder;">Contact</span>
+                        </h1>
+                        <p class="h4 text-paragraph mb-1">
+                            Whether it's a project or just a cup of coffee!
+                        </p>
+                        <div class="w-25 bg-aqua rounded-pill mt-2 mx-auto mx-md-0" style="height: 4px;"></div>
+                    </div>
+
+                    <div class="row g-4"> 
+
+                        <div class="col-md-7">
+                            <div class="bg-white p-2 p-md-3 shadow-lg rounded-3 border border-light h-100">
+                                <h2 class="h4 fw-bold mb-3">Get a Quote</h2>
+
+                                <form name="quote-request" method="POST" data-netlify="true" netlify-honeypot="bot-field-quote" id="quote-form">
+                                    <input type="hidden" name="form-name" value="quote-request" />
+                                    <p class="hp-field" aria-hidden="true">
+                                        <label>Leave this field empty: <input name="bot-field-quote" tabindex="-1" autocomplete="off"></label>
+                                    </p>
+
+                                    <div class="row mb-4 g-4">
+                                        <div class="col-6 col-sm-12 col-md-6">
+                                            <input type="text" id="name" name="name" placeholder="Good Name"
+                                                class="form-control form-control-lg form-control-custom-quote" required>
+                                        </div>
+                                        <div class="col-6 col-sm-12 col-md-6">
+                                            <input type="email" id="email" name="email" placeholder="Favorite Email"
+                                                class="form-control form-control-lg form-control-custom-quote" required>
+                                        </div>
+                                    </div>
+
+                                    <div class="row mb-4 g-4">
+                                        <div class="col-6 col-sm-12 col-md-6">
+                                            <select id="interested-in" name="interested-in"
+                                                class="form-select form-control-lg form-control-custom-quote form-select-custom" required>
+                                                <option selected disabled value="">Interested in</option>
+                                                <option value="web-dev">Web Development</option>
+                                                <option value="mobile-app">Mobile App</option>
+                                                <option value="design">Design</option>
+                                                <option value="marketing">Digital Marketing</option>
+                                                <option value="edix">EDIX (School Management SaaS)</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-6 col-sm-12 col-md-6">
+                                            <select id="need-within" name="need-within"
+                                                class="form-select form-control-lg form-control-custom-quote form-select-custom" required>
+                                                <option selected disabled value="">Need Within</option>
+                                                <option value="1-month">1 Month</option>
+                                                <option value="3-months">3 Months</option>
+                                                <option value="6-months">6+ Months</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="row mb-5 pt-3">
+                                        <div class="col-12">
+                                            <input type="text" id="also-please" name="also-please" placeholder="Also please..."
+                                                class="form-control form-control-lg form-control-custom-quote">
+                                        </div>
+                                    </div>
+
+                                    <div class="mb-2">
+                                        <button type="submit" class="btn-quote-submit">
+                                            Let's Rock &rarr;
+                                        </button>
+                                    </div>
+                                    <div class="form-feedback" data-feedback-for="quote-form"></div>
+                                </form>
+                            </div>
+                        </div>
+
+                        <div class="col-md-5 last-box">
+                            <div class="bg-white p-2 p-md-3 shadow-lg rounded-3 border border-light d-flex flex-column justify-content-between h-100">
+                                <div>
+                                    <h2 class="h4 fw-bold mb-3">Get in Touch</h2>
+                                    <ul class="touch-info-list">
+                                        <li>
+                                            <i class="fa-solid fa-envelope"></i>
+                                            <a href="mailto:hello@ronixsoftware.com">hello@ronixsoftware.com</a>
+                                        </li>
+                                        <li>
+                                            <i class="fa-solid fa-globe"></i>
+                                            <span>ronixsoftware.com</span>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="mt-auto">
+                                    <h2 class="h4 fw-bold mb-3">Be friend</h2>
+
+                                    <form name="newsletter-signup" method="POST" data-netlify="true" netlify-honeypot="bot-field-news" id="newsletter-form">
+                                        <input type="hidden" name="form-name" value="newsletter-signup" />
+                                        <p class="hp-field" aria-hidden="true">
+                                            <label>Leave this field empty: <input name="bot-field-news" tabindex="-1" autocomplete="off"></label>
+                                        </p>
+
+                                        <div class="pb-2 mb-3"> 
+                                            <input type="email" name="email" placeholder="Favorite Email"
+                                                class="w-100 form-control-custom-quote" required>
+                                        </div>
+
+                                        <div class="mb-4">
+                                            <button type="submit" class="btn-quote-submit">
+                                                Add Me! &rarr;
+                                            </button>
+                                        </div>
+                                        <div class="form-feedback" data-feedback-for="newsletter-form"></div>
+                                    </form>
+
+                                    <p class="small text-paragraph mt-3 mb-1"> 
+                                        Willing to join us? Send your resume at <a href="mailto:careers@ronixsoftware.com" class="text-aqua text-decoration-none">careers@ronixsoftware.com</a>
+                                    </p>
+
+                                    <div class="d-flex space-x-4 pt-4 text-2xl"> 
+                                        <a href="https://www.linkedin.com/in/ronix-software/" target="blank" style="color:inherit;"><i class="fab fa-linkedin-in fs-4 me-3 icons-contact"></i></a>
+                                        <a href="https://x.com/RonixSoftware" target="blank" style="color:inherit;"><i class="fab fa-twitter fs-4 me-3 icons-contact"></i></a>
+                                        <a href="https://www.instagram.com/ronix.software/" target="blank" style="color:inherit;"><i class="fab fa-instagram fs-4 me-3 icons-contact"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer class="fixed-footer">
+    <div class="footer-left">
+      <a href="https://www.behance.net/Ronix-Software "  style="color:#3f3d3d;"  target="blank"> <i class="fab fa-behance"></i></a> 
+       <a href="mailto:hello@ronixsoftware.com" style="color:#3f3d3d;"  target="blank"> <i class="fa-solid fa-globe"></i></a>
+      <a href="https://www.linkedin.com/in/ronix-software/ " style="color:#3f3d3d;"  target="blank">  <i class="fab fa-linkedin-in"></i></a>
+    </div>
+    <div class="footer-center">
+        © 2023 Ronix Software. All Rights Reserved. Seriously. All of them.
+    </div>
+    <div class="footer-right">
+        <i class="fab fa-facebook-f"></i>
+      <a href="https://x.com/RonixSoftware "  style="color:#3f3d3d;"  target="blank">  <i class="fab fa-twitter"></i></a>
+     <a href="https://www.instagram.com/ronix.software/" style="color:#3f3d3d;"  target="blank"> <i class="fab fa-instagram"></i></a>  
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+<script src="script.js"></script>
+
+</body>
+</html>

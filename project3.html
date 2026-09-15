@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+   <title>Ronix Software</title> <link rel="icon" type="image/png" href="logo.png"> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <style>
+     
+        
+        /* Container 1: Header/Intro Section */
+        .project-1-container-1,.project-1-container-6 {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            
+            /* Flexible Margin */
+            margin-inline: 5rem;
+            padding: 2rem;
+            
+            margin-top: 5rem;
+            margin-bottom: 4rem;
+            background-color: rgb(242, 242, 247);
+        }
+
+        .project-1-container-1-left,
+        .project-1-container-1-right {
+            /* Desktop Split */
+            width: 50%;
+            padding: 1rem;
+        }
+
+        .project-1-container-1-right img {
+            max-width: 100%;
+            height: auto;
+            margin-left: 5rem;
+        }
+
+        /* Sidebar Text (needs proper absolute/fixed positioning for design style) */
+    .sidebar-text h5 {
+            position: fixed;
+            left: 5rem; /* Adjust as needed */
+            top: 50%;
+            transform: translateY(-50%) rotate(-90deg);
+            font-size: medium;
+            font-weight: bolder;
+            letter-spacing: 1px;
+            color: #38c5f4; /* Placeholder color */
+            z-index: 10;
+        }
+        
+        /* Containers 2, 4, 6: Full Width Images */
+        .project-1-container-2,
+       
+        .project-1-container-6 {
+            margin-inline: 5rem;
+            margin-bottom: 4rem;
+        }
+
+        .project-1-container-2 img,
+       
+        .project-1-container-6 img {
+            /* Use auto margins and 100% width based on parent container */
+            width: 100%; 
+            height: 60%;
+            display: block;
+            margin-left: 0; /* Override inline style */
+        }
+
+        /* Container 3: Quote Section */
+        .project-1-container-3 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            /* Match Container 1 margin for consistency */
+            margin-inline: 5rem; 
+            padding: 2rem;
+            margin-top: 5rem;
+            margin-bottom: 4rem;
+            background-color: rgb(242, 242, 247);
+        }
+        .project-1-container-3 h1 {
+            font-size: 2.5rem;
+        }
+        .project-1-container-3 p {
+            max-width: 700px;
+            margin-top: 1rem;
+        }
+
+        /* Container 5: Overlapping Image Section (Desktop) */
+        .project-1-container-5 {
+            position: relative;
+            margin-inline: 5rem;
+            /* Adjust padding to create space for absolute images */
+            padding-block: 25rem 5rem; 
+            margin-top: 5rem;
+            margin-bottom: 4rem;
+            background-color: rgb(242, 242, 247);
+            min-height: 600px; /* Ensure minimum height */
+        }
+        
+        .project-1-img-1 {
+            position: absolute;
+            z-index: 1; /* Background image */
+            top: 3rem;
+            left: 50%; /* Center the image */
+            transform: translateX(-50%);
+            width: 90%; 
+            max-width: 900px; /* Max size for large screens */
+            height:80%;
+        }
+
+        .project-1-img-2 {
+            position: absolute;
+            z-index: 2; /* Foreground image */
+            top: 5rem;
+            left: calc(50% + 8rem); /* Shift right by 5rem from center */
+            transform: translateX(-50%);
+            width: 70%; 
+            max-width: 700px; /* Max size for large screens */
+            height: auto;
+            margin-left: 0 !important; /* Override inline style */
+        }
+
+        /* Up Next Section */
+        .project-1-next {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-inline: 5rem;
+            padding: 2rem;
+            margin-top: 5rem;
+            margin-bottom: 4rem;
+            background-color: rgb(242, 242, 247);
+        }
+        
+        .project-1-next-left {
+            text-align: left;
+            margin-left: 2rem;
+        }
+
+        .project-1-next-right img {
+            margin-left: 25rem; /* Large desktop margin */
+        }
+
+        .next-project-link {
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: #555;
+            text-decoration: none;
+            transition: color 0.3s;
+            display: block;
+        }
+        .next-project-link:hover,
+        .project-1-next-arrow a:hover {
+            color: #61dbf4;
+        }
+        
+        /* Footer */
+        .fixed-footer {
+            /* Keep fixed positioning for desktop */
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            padding: 10px 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 12px;
+            color: rgb(61, 61, 61) !important;
+            z-index: 999;
+            background-color: rgb(255, 255, 255) !important;
+            height: 50px;
+        }
+    
+    
+        @media (max-width: 992px) {
+            .project-1-next{
+                margin-bottom: 6rem !important;
+            }
+            /* Reduce Margins/Padding */
+            .project-1-container-1,
+            .project-1-container-2,
+            .project-1-container-3,
+         
+            .project-1-container-5,
+            .project-1-container-6,
+            .project-1-next {
+                margin-inline: 2rem;
+                padding: 1.5rem;
+                width: calc(100% - 4rem);
+            }
+
+            /* Container 1: Stack Content */
+            .project-1-container-1 {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .project-1-container-1-left,
+            .project-1-container-1-right {
+                width: 100%;
+                padding: 0.5rem;
+            }
+            
+            .project-1-container-1-right img {
+                margin-left: 0;
+                width: 80%;
+                height: auto;
+                max-width: 400px;
+            }
+    .sidebar-text {
+        /* Ab yeh container poori screen par faila hua bottom bar banega */
+        position: fixed;
+        bottom: 0;
+        left: 0; /* Left side se chipka hua */
+        width: 100%;
+        
+        /* Background color ko force karein */
+        background-color: #ffffff !important; 
+        
+        /* Z-index high rakhein taaki koi content iske upar na aaye */
+        z-index: 99999; 
+        
+        /* Shadow for clear visibility */
+        box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); 
+        
+        /* Zaroorat nahi, lekin safety ke liye */
+        text-align: center;
+        margin: 0 !important;
+        padding: 0 !important; /* Padding isko chota rakhega */
+    }
+
+    /* --- PORTFOLIO CONTACT TEXT FIX --- */
+    .sidebar-text h5 {
+        /* H5 ko koi position nahi denge, yeh parent ke andar center hoga */
+        position: static; 
+     
+        /* Bahut zyada padding ko theek kiya */
+        padding:1rem 0rem !important; 
+   
+        margin: 0 auto !important; 
+        left: initial !important; /* Yeh 4rem wali problem theek ki */
+        font-size: small !important;
+        /* Force settings for layout */
+        width: auto !important; /* Ya phir 100% de sakte hain, par auto behtar hai */
+        display: block !important;
+        text-align: center !important; 
+        
+        /* Writing mode ko horizontal kiya */
+        writing-mode: initial !important; 
+        transform: none !important; 
+        
+        /* Background color isko nahi, parent ko denge */
+        background-color: transparent !important;
+    }
+            
+            /* Container 5: Adjust Overlapping Images for Smaller Screens */
+            .project-1-container-5 {
+                min-height: 450px;
+                padding-block: 15rem 3rem;
+            }
+            
+            .project-1-img-1 {
+                width: 95%; /* Make background image slightly larger */
+            }
+
+            .project-1-img-2 {
+                /* Reduce the right shift */
+                left: 55%; 
+                width: 80%;
+                max-width: 500px;
+            }
+
+            /* Up Next Section */
+            .project-1-next-right img {
+                margin-left: 5rem; /* Reduce large margin */
+                height: 150px;
+                width: 200px;
+            }
+            
+            .next-project-link {
+                font-size: 2rem;
+            }
+            
+            /* Footer */
+            .fixed-footer {
+                padding: 10px 20px;
+                margin-bottom: 3rem !important;
+            }
+        }
+
+
+        @media (max-width: 768px) {
+            
+            /* Minimal Margins */
+            .project-1-container-1,
+            .project-1-container-2,
+            .project-1-container-3,
+            
+            .project-1-container-5,
+            .project-1-container-6,
+            .project-1-next {
+                margin-inline: 0.5rem;
+                padding: 1rem;
+                width: calc(100% - 1rem);
+            }
+                .sidebar-text {
+        /* Ab yeh container poori screen par faila hua bottom bar banega */
+        position: fixed;
+        bottom: 0;
+        left: 0; /* Left side se chipka hua */
+        width: 100%;
+        
+        /* Background color ko force karein */
+        background-color: #ffffff !important; 
+        
+        /* Z-index high rakhein taaki koi content iske upar na aaye */
+        z-index: 99999; 
+        
+        /* Shadow for clear visibility */
+        box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); 
+        
+        /* Zaroorat nahi, lekin safety ke liye */
+        text-align: center;
+        margin: 0 !important;
+        padding: 0 !important; /* Padding isko chota rakhega */
+    }
+
+    /* --- PORTFOLIO CONTACT TEXT FIX --- */
+    .sidebar-text h5 {
+        /* H5 ko koi position nahi denge, yeh parent ke andar center hoga */
+        position: static; 
+     
+        /* Bahut zyada padding ko theek kiya */
+        padding:1rem 0rem !important; 
+   
+        margin: 0 auto !important; 
+        left: initial !important; /* Yeh 4rem wali problem theek ki */
+        font-size: small !important;
+        /* Force settings for layout */
+        width: auto !important; /* Ya phir 100% de sakte hain, par auto behtar hai */
+        display: block !important;
+        text-align: center !important; 
+        
+        /* Writing mode ko horizontal kiya */
+        writing-mode: initial !important; 
+        transform: none !important; 
+        
+        /* Background color isko nahi, parent ko denge */
+        background-color: transparent !important;
+    }
+            /* Container 1: Typography */
+            .project-1-container-1-left h1 {
+                font-size: x-large;
+            }
+
+            .project-1-container-1-right img {
+                width: 90%;
+            }
+
+            /* Container 5: Stacked or Simplified Overlap */
+            .project-1-container-5 {
+                padding-block: 10rem 3rem;
+                min-height: 300px;
+                overflow: hidden;
+            }
+            
+            .project-1-img-1 {
+                top: 2rem;
+                left: 50%;
+                transform: translateX(-50%);
+                width: 95%;
+            }
+
+            .project-1-img-2 {
+                top: 4rem;
+                left: 50%; /* Center foreground image */
+                width: 85%;
+            }
+
+            /* Up Next Section: Stack vertically */
+            .project-1-next {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .project-1-next-left {
+                margin-left: 0;
+                order: 2; /* Move text below image */
+            }
+
+            .project-1-next-right {
+                order: 1; /* Move image above text */
+                margin-bottom: 1rem;
+            }
+            
+            .project-1-next-right img {
+                margin-left: 0;
+                width: 200px;
+                height: 150px;
+            }
+
+            .next-project-link {
+                font-size: 1.5rem;
+            }
+            
+            .project-1-next-arrow a {
+                margin-left: 0 !important;
+                display: block;
+                padding-top: 10px;
+            }
+            
+            /* Footer: Stack horizontally (no fixed positioning needed for mobile view unless required) */
+            .fixed-footer {
+                position: relative; /* Change from fixed to relative/static */
+                height: auto;
+                flex-direction: column;
+                padding: 15px 10px;
+                text-align: center;
+                border-top: 1px solid #eee;
+            }
+            
+            .footer-left, .footer-right, .footer-center {
+                margin: 5px 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="project-1-container-1">
+        <div class="sidebar-text">
+            <h5 ><a href="index10.html">PORTFOLIO</a> <a href="index8.html">CONTACT</a></h5>
+        </div>
+        <div class="logo-container">
+              <a href="index.html">  <img src="logo.png" alt="" class="logo"></a> 
+        </div>
+   
+        <div class="project-1-container-1-left">
+            <h1 style="font-size: xx-large;font-weight: bolder;color: black;">API's Generation</h1>
+            <p>A fully functional API'S built with functional,fully accurative code
+                and an intuitive user interface (UI) for a seamless experience.</p>
+        </div>
+        <div class="project-1-container-1-right">
+            <img src="img-14.jpg" alt="E-Commerce Screenshot" style="height: 350px; width: 350px;">
+        </div>
+    </div>
+
+    <div class="project-1-container-2">
+        <img src="img-22.jpg" alt="Project Mockup 1">
+    </div>
+
+    <div class="project-1-container-3">
+        <h1>Don't take our word for it</h1>
+        <p>RONIX has a broad range of design and development skills that enabled<br> them to create a beautiful,
+            sophisticated website for <br>our brand completely from scratch. We will definitely continue working with
+            him.
+        </p>
+    </div>
+  
+    <div class="project-1-container-5">
+        <img src="img-27.jpg" alt="Pattern Background" class="project-1-img-1">
+        <img src="img-24.png" alt="Desktop and Mobile Mockup" class="project-1-img-2">
+    </div>
+    
+    <div class="project-1-container-6">
+        <img src="img-28.jpg" alt="Project Mockup 3">
+    </div>
+    
+    <section class="up-next text-center py-5 my-4 project-1-next">
+        <div class="project-1-next-left">
+            <p class="text-muted mb-2">Up Next
+                <a href="project2.html" class="project-1-next-arrow" style="color:#555">
+                    <i class="fa-solid fa-arrow-right" style="font-size: large;"></i>
+                </a> 
+            </p>
+            <a href="project4.html" class="next-project-link fw-bold text-decoration-none" > UI/UX Designing</a>
+        </div>
+        
+        <div class="project-1-next-right">
+            <img src="img-10.jpg" alt="Receipt Generator Preview" height="200" width="250">
+        </div>
+    </section>
+
+<footer class="fixed-footer">
+    <div class="footer-left">
+      <a href="https://www.behance.net/Ronix-Software "  style="color:#3f3d3d;"  target="blank"> <i class="fab fa-behance"></i></a> 
+       <a href="ronixsoftware@gmail.com " style="color:#3f3d3d;"  target="blank"> <i class="fa-solid fa-globe"></i></a>
+      <a href="https://www.linkedin.com/in/ronix-software/ " style="color:#3f3d3d;"  target="blank">  <i class="fab fa-linkedin-in"></i></a>
+    </div>
+    <div class="footer-center">
+        © 2023 Ronix Software. All Rights Reserved. Seriously. All of them.
+    </div>
+    <div class="footer-right">
+        <i class="fab fa-facebook-f"></i>
+      <a href="https://x.com/RonixSoftware "  style="color:#3f3d3d;"  target="blank">  <i class="fab fa-twitter"></i></a>
+     <a href="https://www.instagram.com/ronix.software/" style="color:#3f3d3d;"  target="blank"> <i class="fab fa-instagram"></i></a>  
+    </div>
+</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

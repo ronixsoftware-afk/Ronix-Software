@@ -1,0 +1,2395 @@
+
+
+
+@media (max-width: 1024px) {
+.logo-container {
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    top: 0;
+    height: 80px;
+    z-index: 1000;
+}    .container-4{
+        margin-bottom: 15rem !important;
+    }
+    .fixed-footer {
+                flex-direction: column;
+                text-align: center;
+                padding: 68px 1rem;
+            }
+            
+            .footer-left, .footer-right, .footer-center {
+                margin: 2px 0;
+            }
+.logo {
+    height: 120px;
+    width: 120px;
+    margin-top: -20px;
+ 
+}
+    .header,
+    .html-2-container-1 {
+        flex-direction: column;
+        margin-left: 5rem;
+        margin-right: 5rem;
+    }
+
+    .container-2,
+    .container-3,
+    .container-4,
+    .html-2-container-2,
+    .html-2-container-3,
+    .html-2-container-4,
+    .html-2-container-5,
+    .html-2-container-6,
+    .html-2-container-7 {
+        margin-left: 5rem;
+        margin-right: 5rem;
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+
+    .header-left,
+    .header-right {
+        width: 100%;
+        padding-left: 0;
+        text-align: center;
+    }
+
+   
+    .sidebar-text h5 {
+        left: 2rem;
+        margin-left: -3rem;
+        font-size:larger !important;
+        font-weight: bolder !important;
+    }
+
+    .right-sidebar {
+        right: 50px;
+    }
+
+   
+    .header-content h1 {
+        font-size: 8rem;
+    }
+
+    .html-3-container-1 {
+        flex-direction: column !important;
+        margin-inline: 5rem !important;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+
+    .html-3-header-left,
+    .html-3-header-right {
+        width: 100% !important;
+        padding-left: 0 !important;
+        text-align: center;
+    }
+
+    .html-3-header-right img {
+        width: 50%;
+        height: auto;
+
+        margin-left: 0% !important;
+        /* Left margin set karein */
+        margin-right: auto !important;
+        /* Right margin auto rakhein */
+
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        display: block;
+    }
+
+    .html-3-container-2,
+    .html-3-container-3 {
+        margin-inline: 5rem !important;
+        padding-left: 3rem !important;
+        padding-right: 3rem !important;
+       
+    }
+ .html-3-container-3{
+ margin-bottom: 5rem !important;
+ }
+    .html-3-header-left h1 {
+        font-size: 3.5rem !important;
+    }
+
+  
+    .html-3-container-1 {
+        flex-direction: column;
+        margin-inline: 5rem !important;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+
+    .html-3-header-left,
+    .html-3-header-right {
+        width: 100% !important;
+        padding-left: 0 !important;
+        text-align: center;
+    }
+
+    .html-3-header-right img {
+        width: 80%;
+        height: auto;
+
+      
+        margin-left: 5% !important;
+        /* Left margin set karein */
+        margin-right: auto !important;
+     
+
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        display: block;
+    }
+
+    .html-3-container-2,
+    .html-3-container-3 {
+        margin-inline: 5rem !important;
+        padding-left: 3rem !important;
+        padding-right: 3rem !important;
+    }
+
+    .html-3-header-left h1 {
+        font-size: 3.5rem !important;
+    }
+
+
+    .html-4-container-1 {
+        display: block !important; 
+        margin-inline: 4rem !important; 
+        padding-block: 2.5rem;
+        text-align: center; 
+    
+      
+    }
+    
+  
+    .html-4-header-left,
+    .html-4-header-right {
+        width: 100% !important; 
+        padding-left: 0 !important; 
+        text-align: center; 
+        display: block !important;
+        margin: 0 auto 20px auto !important; 
+    }
+   
+    .html-4-header-left h1 { 
+        font-size: 3.5rem !important; 
+        padding-top: 2rem;
+    }
+    
+    
+    .html-4-header-left p {
+        max-width: 90%;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        text-align: center;
+    }
+
+    /* Image Centering */
+    .html-4-header-right img {
+        width: 80% !important; 
+        height: auto !important;
+        max-width: 350px;
+        margin: 1rem auto !important; 
+        display: block;
+    }
+
+   
+    .html-4-container-2,
+    .html-4-container-3,
+    .html-4-container-4 {
+        margin-inline: 4rem !important; 
+        padding-left: 1.5rem !important; 
+        padding-right: 1.5rem !important;
+        text-align: center !important;
+    }
+   
+    .html-5-container-1 {
+        display: block !important; 
+        margin-inline: 4rem !important; 
+        padding-block: 2.5rem;
+        margin-top: 60px !important; 
+        text-align: center; 
+    }
+    
+
+    .html-5-container-1-left,
+    .html-5-container-1-right {
+        width: 100% !important; 
+        padding-left: 0 !important; 
+        text-align: center; 
+        display: block !important;
+        margin: 0 auto 20px auto !important; 
+    }
+    
+   
+    .html-5-container-1-left h1 { 
+        font-size: 3.5rem !important; 
+    }
+    
+
+    .html-5-container-1-left p {
+        max-width: 90%;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        text-align: center;
+      
+        padding-left: 0 !important; 
+    }
+
+  
+    .html-5-container-1-right img {
+        width: 80% !important; 
+        height: auto !important;
+        max-width: 350px;
+        margin: 1rem auto !important; 
+        display: block;
+    }
+
+   
+    .html-5-container-2,
+    .html-5-container-3 {
+        margin-inline: 4rem !important; 
+        padding-left: 1rem !important; 
+        padding-right: 1rem !important;
+        text-align: center !important;
+    }
+    
+    .html-5-container-2 .row.g-4 {
+        justify-content: center;
+    }
+    .html-5-container-2 .col-md-4 {
+        flex: 0 0 70% !important; /* Cards ko thoda bada kiya */
+        max-width: 70% !important;
+        margin-bottom: 20px;
+    }
+
+
+    .timeline-line {
+        display: none !important; /* Mobile par line hataya */
+    }
+    .timeline-dot {
+        position: relative !important; /* Dot ko flow mein laya */
+        margin: 0 auto 10px auto;
+        left: auto;
+        transform: none;
+    }
+    .timeline-item .col-md-5 {
+        order: 1 !important; /* Content ko hamesha upar rakha */
+        text-align: left !important;
+        max-width: 100% !important;
+        flex: 0 0 100% !important;
+    }
+    .html-5-container-3 {
+        margin-inline: 4rem !important; 
+        padding-left: 1rem !important; 
+        padding-right: 1rem !important;
+        text-align: center !important;
+    }
+    
+
+ 
+    .timeline-item {
+        padding-bottom: 2.5rem !important; 
+        display: block !important; 
+    }
+
+    .timeline-dot {
+     display: none;
+    }
+   
+    .timeline-item .col-md-5,
+    .timeline-item .col-md-2 {
+        order: 1 !important; 
+        text-align: center !important; /* Text ko center kiya */
+        max-width: 100% !important;
+        flex: 0 0 100% !important;
+        padding: 0 15px !important; /* Default padding rakha */
+    }
+
+   
+    .timeline-item .col-md-5:empty {
+        display: none !important;
+    }
+    
+   
+    .timeline-item h3 {
+        text-align: center !important; 
+    }
+    
+   
+    .timeline-item p {
+        text-align: center !important; 
+        margin-left: auto !important;
+        margin-right: auto !important;
+        max-width: 400px; /* Readable width */
+        font-size: 0.95rem;
+    }
+
+    .html-6-container-1 {
+        display: block !important; /* Force Stacking */
+        margin-inline: 4rem !important; 
+        padding-block: 2.5rem;
+        margin-top: 60px !important; /* Logo ke neeche space */
+        text-align: center; 
+    }
+   
+    .html-6-header-left,
+    .html-6-header-right {
+        width: 100% !important; 
+        padding-left: 0 !important; 
+        text-align: center; 
+        display: block !important;
+        margin: 0 auto 20px auto !important;
+    }
+
+
+    .html-6-header-left img {
+        width: 80% !important; 
+        height: auto !important;
+        max-width: 350px;
+        margin: 1rem auto 2rem auto !important; 
+        display: block;
+    }
+    
+  
+    .html-6-header-right h1 { 
+        font-size: 3.5rem !important; 
+    }
+    .html-6-header-right p {
+        max-width: 90%;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        text-align: center;
+    }
+
+   
+    .html-6-container-2 {
+        margin-inline: 4rem !important; 
+        padding-left: 1.5rem !important; 
+        padding-right: 1.5rem !important;
+    }
+    .service-card-grid {
+        display: block !important; /* Cards ko stack kiya */
+    }
+    .html-6-container-2 .col-md-4 {
+        flex: 0 0 70% !important; /* Cards ko bada kiya */
+        max-width: 70% !important;
+        margin: 0 auto 20px auto; /* Centered */
+    }
+
+    .html-6-container-3 {
+        margin-inline: 4rem !important;
+        padding-left: 1.5rem !important; 
+        padding-right: 1.5rem !important;
+    }
+    .html-6-container-3 .row.justify-content-center {
+        display: block !important;
+    }
+    .html-6-container-3 .col-md-3.usp-item {
+        flex: 0 0 70% !important; 
+        max-width: 70% !important;
+        margin: 0 auto 30px auto !important; 
+        text-align: center;
+    }
+
+   
+    .html-6-container-4 {
+        margin-inline: 4rem !important;
+        padding-left: 1.5rem !important; 
+        padding-right: 1.5rem !important;
+        text-align: center;
+    }
+    .html-6-container-4 img {
+        width: 100% !important;
+        height: auto !important;
+        margin-left: 0 !important; /* Margin remove kiya */
+    }
+
+
+    .html-7-container-1 {
+        display: block !important; /* Force Stacking */
+        margin-inline: 4rem !important; 
+        padding-block: 2.5rem;
+        margin-top: 60px !important; /* Logo ke neeche space */
+        text-align: center; 
+    }
+    
+   
+    .html-7-container-1-left,
+    .html-7-container-1-right {
+        width: 100% !important; 
+        padding-left: 0 !important; 
+        text-align: center; 
+        display: block !important;
+        margin: 0 auto 20px auto !important;
+    }
+    
+    /* Image Centering */
+    .html-7-container-1-right img {
+        width: 80% !important; 
+        height: auto !important;
+        max-width: 350px;
+        margin: 1rem auto !important; 
+        display: block;
+    }
+
+    /* Text Content Centering */
+    .html-7-container-1-left h1 { 
+        font-size: 3.5rem !important; 
+    }
+    .html-7-container-1-left p {
+        max-width: 90%;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        text-align: center;
+    }
+
+
+    .html-7-container-2,
+    .html-7-container-3,
+    .html-7-container-4 {
+        margin-inline: 4rem !important; 
+        padding-left: 1rem !important; 
+        padding-right: 1rem !important;
+        text-align: center;
+    }
+
+    .html-7-container-3 .col-md-4 {
+        flex: 0 0 70% !important; /* Cards ko bada kiya */
+        max-width: 70% !important;
+        margin: 0 auto 20px auto; /* Centered */
+    }
+
+  
+    .html-2-container-2 .row {
+        display: block !important; /* Force stacking of steps */
+    }
+    .process-step {
+        /* Steps ko mobile par centered aur full width kiya */
+        flex: 0 0 70% !important; 
+        max-width: 70% !important;
+        margin: 0 auto 30px auto !important;
+        padding-inline: 15px !important;
+    }
+ 
+    .process-connector {
+        display: none !important; 
+    }
+
+
+    .html-8-container { 
+        /* Margin ko -19rem se kam karke -12rem kiya */
+        margin-left: -12rem !important; 
+        /* Logo ko chota karne ke liye width adjust ki */
+        width: 100% !important; 
+    }
+    .html-8-logo {
+        max-width: 100% !important;
+        height: auto !important;
+    }
+    
+   
+    .html-8-side h5 {
+        font-size: 0.9rem !important; /* Text size thoda kam kiya */
+        left: 3rem !important;
+    }
+
+
+    .html-8-container-1 {
+        margin-inline: 4rem !important; 
+        padding-left: 1rem !important; 
+        padding-right: 1rem !important;
+        padding-block: 2.5rem !important; 
+    }
+    .main-content {
+        padding-left: 80px !important; 
+        padding-right: 1rem !important; 
+        padding-top: 3rem !important;
+        padding-bottom: 5rem !important;
+    }
+
+
+
+
+}
+
+
+
+@media (max-width: 980px) {
+
+    .logo {
+        height: 90px;
+        width: 90px;
+        margin-top: -15px;
+         margin-left: 4rem;
+    }.logo-container {
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    top: 0; /* Top se shuru karein */
+    height: 50px;
+    z-index: 1000;
+    margin-left: -5rem;
+
+}
+
+    /* ✅ SIDEBAR SHOW FIX: Sidebars ko side mein fixed rakhein */
+    .sidebar-text h5 {
+        position: fixed;
+        transform: translateY(-50%) rotate(-90deg);
+        top: 52%;
+    left:2rem;
+        z-index: 995;
+        font-size: medium;
+    }
+
+    .right-sidebar {
+        position: fixed;
+        right: 50px;
+        top: 52%;
+        transform: translateY(-50%);
+        z-index: 995;
+    }
+
+    .container-1 {
+        padding-inline: 0.1rem;
+
+    }
+
+    /* Content ko andar shift karein taaki sidebars overlap na karein */
+    .header,
+    .html-2-container-1,
+    .container-2,
+    .container-3,
+    .container-4,
+    .html-2-container-2,
+    .html-2-container-3,
+    .html-2-container-4,
+    .html-2-container-5,
+    .html-2-container-6,
+    .html-2-container-7 {
+        /* Left/Right padding badha dein */
+        padding-left: 35px !important;
+        padding-right: 35px !important;
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+
+    /* Font Size Adjust: Page 2 Heading */
+    .header-left h1 {
+        font-size: 2rem;
+    }
+
+
+
+
+    .html-3-container-1 {
+        flex-direction: column !important;
+        /* Stacking ko force kiya */
+        display: block !important;
+        /* Agar column kaam na kare toh block se stack hoga */
+        margin-inline: 4rem !important;
+        /* Existing margin se adjust kiya */
+        padding-left: 1.5rem !important;
+        padding-right: 1.5rem !important;
+        text-align: center;
+    }
+
+    /* 2. Header parts ko 100% width aur block display diya */
+    .html-3-header-left,
+    .html-3-header-right {
+        width: 100% !important;
+        padding-left: 0 !important;
+        text-align: center;
+        display: block !important;
+        /* Force Block Display */
+        margin: 0 auto 20px auto !important;
+    }
+
+    /* 3. Image Sizing and Centering */
+    .html-3-header-right img {
+        width: 80%;
+        height: auto;
+        /* Image ko center kiya */
+        margin: 1rem auto !important;
+        display: block;
+    }
+
+    /* 4. Heading size adjust kiya */
+    .html-3-header-left h1 {
+        font-size: 3.2rem !important;
+    }
+
+    /* 5. Container 2 & 3 Margins/Padding Adjustments */
+    .html-3-container-2,
+    .html-3-container-3 {
+        margin-inline: 4rem !important;
+        /* Existing margin se adjust kiya */
+        padding-left: 1.5rem !important;
+        padding-right: 1.5rem !important;
+        text-align: center;
+    }
+
+        .html-3-container-2 ul {
+        list-style-position: inside;
+        padding-left: 0;
+        margin: 1rem auto;
+        max-width: 250px;
+        text-align: left;
+    }
+
+    .html-3-container-2 ul li {
+        margin-left: 0 !important;
+        text-align: left;
+        list-style-position: inside;
+        font-size: 0.75rem;
+    }
+
+}
+@media (max-width: 820px){
+    .container-4{
+        margin-bottom: 15rem !important;
+    }
+}
+
+
+/* --- 3. SMALL MOBILE VIEW (max-width: 768px) --- */
+@media (max-width: 768px) {
+
+    .fixed-footer {
+                flex-direction: column;
+                text-align: center;
+                padding: 90px 2rem;
+            }
+            
+            .footer-left, .footer-right, .footer-center {
+                margin: 2px 0;
+            }
+
+
+    .logo {
+        height: 90px;
+        width: 90px;
+        margin-top: -15px;
+     margin-left: 4rem;
+      
+    }.logo-container {
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    top: 0; /* Top se shuru karein */
+    height: 50px;
+    z-index: 1000;
+    margin-left: -5rem;
+
+}
+
+
+
+    /* Content ki padding/margins theek karein jab sidebar chhip jaye */
+    .header,
+    .html-2-container-1,
+    .container-2,
+    .container-3,
+    .container-4,
+    .html-2-container-2,
+    .html-2-container-3,
+    .html-2-container-4,
+    .html-2-container-5,
+    .html-2-container-6,
+    .html-2-container-7 {
+        /* Padding normal karein */
+        padding-left: 1.5rem !important;
+        padding-right: 1.5rem !important;
+        margin-left: 4.8rem;
+        margin-right: 4.8rem;
+        margin-top: 60px;
+       
+    }
+   .container-2,
+    .container-3,
+    .container-4{
+           padding-left: 0rem !important;
+        padding-right:3.2rem !important;
+    }
+    /* Font Size Adjustments */
+    .header-content h1 {
+        font-size: 5rem;
+    }
+
+    /* Page 1 Main Heading */
+    .header-left h1 {
+        font-size: 2.5rem;
+    }
+
+    /* Page 2 Heading */
+
+    /* Footer Static */
+    .fixed-footer {
+        position: static;
+        padding: 10px 15px;
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+    }
+
+    /* === HTML-3 768px Margins Fixes === */
+    .html-3-container-1,
+    .html-3-container-2,
+    .html-3-container-3 {
+        margin-left: 4.8rem !important;
+        margin-right: 4.8rem !important;
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+    }
+
+    .html-3-header-left h1 {
+        font-size: 3rem !important;
+    }
+    /* === HTML-4 768px Margins and Font Fixes === */
+    .html-4-container-1, 
+    .html-4-container-2, 
+    .html-4-container-3, 
+    .html-4-container-4 {
+        /* Sidebar ki wajah se content ko aur andar shift kiya */
+        margin-left: 4.8rem !important;
+        margin-right: 4.8rem !important;
+        padding-left: 1rem !important; 
+        padding-right: 1rem !important;
+        text-align: center !important; 
+    }
+    
+    .html-4-header-left h1 { 
+        font-size: 3rem !important; 
+    }
+
+    /* Smaller paragraphs ko center aur narrow kiya */
+    .html-4-header-left p, 
+    .html-4-container-2 p, 
+    .html-4-container-3 p,
+    .html-4-container-4 p {
+        max-width: 90%;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        text-align: center;
+        font-size: 0.9rem;
+    }
+.right-sidebar{
+    display: none;
+}
+    .html-5-container-1, 
+    .html-5-container-2, 
+    .html-5-container-3 {
+        /* Sidebar ki wajah se content ko aur andar shift kiya */
+        margin-left: 4.8rem !important;
+        margin-right: 4.8rem !important;
+        padding-left: 0.5rem !important; 
+        padding-right: 0.5rem !important;
+        text-align: center !important; 
+    }
+    
+    .html-5-container-1-left h1 { 
+        font-size: 3rem !important; 
+    }
+
+    /* Expertise Cards ko narrow kiya */
+    .html-5-container-2 .col-md-4 {
+        flex: 0 0 90% !important; 
+        max-width: 90% !important;
+    }
+    
+    .html-5-container-2 h2, .html-5-container-3 h2 {
+        font-size: 2rem !important;
+    }
+    
+    /* Card Title adjust kiya */
+    .html-5-container-2 .card-title {
+        font-size: 1.5rem !important;
+    }
+    .html-7-container-1, 
+    .html-7-container-2, 
+    .html-7-container-3,
+    .html-7-container-4 {
+        margin-left: 4.8rem !important; 
+        margin-right: 4.8rem !important; 
+        padding-left: 0.5rem !important; 
+        padding-right: 0.5rem !important;
+    }
+    
+    /* Pillars (Cards) & Process Steps ko aur narrow kiya */
+    .html-7-container-3 .col-md-4,
+    .process-step {
+        flex: 0 0 90% !important; 
+        max-width: 90% !important;
+        margin-bottom: 25px !important;
+    }
+    
+    /* Heading sizes adjust kiye */
+    .html-7-container-1-left h1 { 
+        font-size: 3rem !important; 
+    }
+    .html-7-container-2 h3, .html-7-container-3 h3 {
+        font-size: 2rem !important;
+    }
+
+   
+    
+    /* Logo Container - Centering and removing negative margin */
+    .html-8-container { 
+        position: absolute !important; /* Taaki heading ke upar rahe */
+        top: 20px !important; 
+        left: 45% !important;
+        transform: translateX(-50%) !important;
+        margin: 0 !important; /* Negative margin removed */
+        width: 80px !important; /* Size chota kiya */
+        height: 40px !important;
+        display: block !important;
+        text-align: center !important;
+        z-index: 7777;
+    }
+    .html-8-logo {
+        max-width: 80px !important; /* Logo size chota kiya */
+        height: auto !important;
+    }
+
+    /* --- Content Adjustments (Sidebar hidden) --- */
+    .html-8-container-1 {
+        margin-left: 1rem !important; 
+        margin-right: 1rem !important;
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+        margin-top: 4rem !important; /* Space for the centered logo */
+    }
+    .main-content {
+        padding-left: 1rem !important; /* Left padding kam kiya */
+        padding-right: 1rem !important;
+        padding-top: 2rem !important;
+        padding-bottom: 3rem !important;
+    }
+    .html-8-container-1 .display-1 {
+        font-size: 3rem !important;
+    }
+
+      .tech-grid {
+        /* Two items per row for tablet/mobile */
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        gap: 15px;
+    }
+    .section-header h2 {
+        font-size: 2em;
+    }
+    /* Further reduce margins and padding for mobile */
+    .html-9-container-2,
+    .html-9-container-3,
+    .html-9-container-4,
+    .html-9-container-5,
+    .html-9-container-6 {
+        margin-inline: 1rem;
+        padding-left: 1rem;
+        padding-inline: 1rem;
+        
+    }
+    
+    .html-9-headline {
+        font-size: 2.5em; /* Smaller headline for mobile */
+    }
+    
+    .html-9-description {
+        font-size: 1em; /* Smaller body text */
+    }
+
+    /* Adjust the text alignment in the 'Who We Are' section */
+    .html-9-container-3 {
+        padding-block: 2rem;
+    }
+
+    .html-9-container-3 p {
+        text-align: left; /* Make the detailed text left-aligned on mobile for readability */
+    }
+
+    .hero-buttons {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+     .fixed-footer {
+                flex-direction: column;
+                text-align: center;
+                padding: 90px 2rem;
+            }
+            
+            .footer-left, .footer-right, .footer-center {
+                margin: 2px 0;
+            }
+
+    .sidebar-text {
+        /* Ab yeh container poori screen par faila hua bottom bar banega */
+        position: fixed;
+        bottom: 0;
+        left: 0; /* Left side se chipka hua */
+        width: 100%;
+        
+        /* Background color ko force karein */
+        background-color: #ffffff !important; 
+        
+        /* Z-index high rakhein taaki koi content iske upar na aaye */
+        z-index: 99999; 
+        
+        /* Shadow for clear visibility */
+        box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); 
+        
+        /* Zaroorat nahi, lekin safety ke liye */
+        text-align: center;
+        margin: 0 !important;
+        padding: 0 !important; /* Padding isko chota rakhega */
+    }
+
+    /* --- PORTFOLIO CONTACT TEXT FIX --- */
+    .sidebar-text h5 {
+        /* H5 ko koi position nahi denge, yeh parent ke andar center hoga */
+        position: static; 
+        
+        /* Bahut zyada padding ko theek kiya */
+        padding: 15px 0 !important; 
+        
+        /* Margin/Position reset karna zaroori hai */
+        margin: 0 auto !important; 
+        left: initial !important; /* Yeh 4rem wali problem theek ki */
+        
+        /* Force settings for layout */
+        width: auto !important; /* Ya phir 100% de sakte hain, par auto behtar hai */
+        display: block !important;
+        text-align: center !important; 
+        
+        /* Writing mode ko horizontal kiya */
+        writing-mode: initial !important; 
+        transform: none !important; 
+        
+        /* Background color isko nahi, parent ko denge */
+        background-color: transparent !important;
+    }
+
+
+   
+    
+    
+}
+
+
+
+@media (max-width: 540px) {
+
+    .logo {
+        height: 90px;
+        width: 90px;
+        margin-top: -15px;
+    
+      
+    }.logo-container {
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    top: 0; /* Top se shuru karein */
+    height: 50px;
+    z-index: 1000;
+    margin-left: -5rem;
+
+}
+    .navbar ul {
+        flex-direction: column;
+    }
+
+    .sidebar-text {
+        /* Ab yeh container poori screen par faila hua bottom bar banega */
+        position: fixed;
+        bottom: 0;
+        left: 0; /* Left side se chipka hua */
+        width: 100%;
+        
+        /* Background color ko force karein */
+        background-color: #ffffff !important; 
+        
+        /* Z-index high rakhein taaki koi content iske upar na aaye */
+        z-index: 99999; 
+        
+        /* Shadow for clear visibility */
+        box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); 
+        
+        /* Zaroorat nahi, lekin safety ke liye */
+        text-align: center;
+        margin: 0 !important;
+        padding: 0 !important; /* Padding isko chota rakhega */
+    }
+
+    /* --- PORTFOLIO CONTACT TEXT FIX --- */
+    .sidebar-text h5 {
+        /* H5 ko koi position nahi denge, yeh parent ke andar center hoga */
+        position: static; 
+        
+        /* Bahut zyada padding ko theek kiya */
+        padding: 15px 0 !important; 
+        
+        /* Margin/Position reset karna zaroori hai */
+        margin: 0 auto !important; 
+        left: initial !important; /* Yeh 4rem wali problem theek ki */
+        
+        /* Force settings for layout */
+        width: auto !important; /* Ya phir 100% de sakte hain, par auto behtar hai */
+        display: block !important;
+        text-align: center !important; 
+        
+        /* Writing mode ko horizontal kiya */
+        writing-mode: initial !important; 
+        transform: none !important; 
+        
+        /* Background color isko nahi, parent ko denge */
+        background-color: transparent !important;
+    }
+
+
+    .right-sidebar {
+        display: none;
+    }
+
+    .container-1 {
+        margin-left: 0rem;
+        margin-right: 0rem;
+    }
+
+    .container-3 .container-3-left img {
+        margin-left: -0.2rem !important;
+        margin-right: -3rem !important;
+    }
+  .container-2 .container-2-right img {
+        margin-left: 1.5rem !important;
+        margin-right: -5rem !important;
+    }
+    .container-4 .container-4-right img {
+        margin-left: 1.5rem !important;
+        margin-right: -5rem !important;
+    }
+    .header,
+    .html-2-container-1,
+    .container-2,
+    .container-3,
+    .container-4,
+    .html-2-container-2,
+    .html-2-container-3,
+    .html-2-container-4,
+    .html-2-container-5,
+    .html-2-container-6,
+    .html-2-container-7 {
+
+        margin-left: 4.8rem;
+        margin-right: 4.8rem;
+
+        flex-direction: column;
+
+    }  
+    .container-2 p,
+    .container-3 p,
+    .container-4 p {
+        text-align: center;
+        width: 100%;
+   
+        font-size: small;
+        margin-left: -1rem;
+        max-width: 550px;
+
+    }
+
+    .html-2-container-1 .header-right img {
+        height: 180px;
+        width: 180px;
+
+    }
+
+    .container-2 h1,
+    .container-3 h1,
+    .container-4 h1 {
+        font-size: large;
+    }
+
+    /* Font Size Adjustments */
+    .header-content h1 {
+        font-size: 4rem !important;
+    }
+
+    .header-left h1 {
+        font-size: 2rem;
+    }
+
+    
+    .html-3-container-1,
+    .html-3-container-2,
+    .html-3-container-3 {
+        margin-left: 4.8rem !important;
+        margin-right: 4.8rem !important;
+        flex-direction: column;
+
+    }
+
+    .html-3-header-left h1 {
+        font-size: 2.5rem !important;
+    }
+
+
+    .html-6-container-1, 
+    .html-6-container-2, 
+    .html-6-container-3,
+    .html-6-container-4 {
+        
+
+        margin-left: 4.8rem !important; 
+        margin-right: 4.8rem !important; 
+        padding-left: 0.8rem !important;
+        padding-right: 0.8rem !important;
+        text-align: center !important;
+    }
+
+    /* --- HTML-6 Container 1 (Image & Text) Font Adjustments --- */
+    .html-6-header-right h1 { 
+        font-size: 3rem !important; /* Main Heading size kam kiya */
+    }
+    .html-6-header-right p[style*="font-size:1.5rem"] {
+        font-size: 1.1rem !important; /* Secondary heading size kam kiya */
+    }
+    
+   
+    .html-6-container-2 .col-md-4,
+    .html-6-container-3 .col-md-3.usp-item {
+        flex: 0 0 90% !important; 
+        max-width: 90% !important;
+        margin-bottom: 20px !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+    
+    /* Section titles ko chota kiya */
+    .section-title {
+        font-size: 2.2rem !important;
+    }
+
+    /* Paragraphs ki max-width set ki */
+    .html-6-header-right p, 
+    .service-card p,
+    .usp-item p {
+        max-width: 300px !important; 
+        margin-left: auto !important; 
+        margin-right: auto !important;
+        font-size: 0.85rem !important;
+    }
+.html-6-container-2 h2{
+    font-size: 2rem !important;
+}
+
+    .html-8-container { 
+        width: 60px !important; 
+        height: 30px !important;
+        margin-left: -2rem !important;
+    }
+    .html-8-logo {
+        max-width: 60px !important;
+    }
+.html-8-side h5{
+    left:-2rem !important;
+    font-size: 12px !important;
+}
+    /* Content Margin/Padding */
+    .html-8-container-1 {
+        margin-inline: 0.5rem !important;
+        padding-block: 1.5rem !important;
+    }
+    .html-8-container-1 .display-1 {
+        font-size: 2.5rem !important; 
+    }
+.button .contact-button{
+margin-left: 4rem;
+}
+
+}
+
+
+@media (max-width: 576px) {
+    /* Existing containers fix for margin and stacking */
+    .header,
+    .html-2-container-1,
+    .container-2,
+    .container-3,
+    .container-4,
+    .html-2-container-2,
+    .html-2-container-3,
+    .html-2-container-4,
+    .html-2-container-5,
+    .html-2-container-6,
+    .html-2-container-7 {
+        /* Margins ko thoda aur kam kiya, agar 4.8rem zyada ho raha hai */
+        margin-left: 1.5rem; 
+        margin-right: 1.5rem;
+        flex-direction: column; 
+        padding-inline: 0; 
+    }
+
+    /* --- Container 2, 3, 4 Specific Stacking & Centering --- */
+    .container-2-left,
+    .container-3-right,
+    .container-4-left,
+    .container-2-right,
+    .container-3-left,
+    .container-4-right {
+        width: 100% !important; 
+        padding-left: 0 !important; 
+        padding-right: 0 !important; 
+        text-align: center; 
+        margin-bottom: 1.5rem; 
+    }
+
+    /* Text Content Alignment (H1, P) */
+    .container-2-left h1,
+    .container-3-right h1,
+    .container-4-left h1 {
+        font-size: 2rem !important; /* Heading size thoda aur kam kiya */
+        text-align: center !important;
+        padding-left: 3rem;
+    }
+    .html-2-container-1{
+   margin-left: 3.5rem; 
+        margin-right: 3.5rem;
+    }
+    .header-right img{
+        padding-left: 0.1rem !important;
+        width:60% !important;
+        height:60% !important;
+    }
+    /* Secondary Heading/Subheading (Where Vision Meets Code) */
+    .container-2-left p[style*="font-size:1.5rem"], 
+    .container-3-right p[style*="font-size:1.5rem"], 
+    .container-4-left p[style*="font-size:1.5rem"] {
+        font-size: 1.1rem !important; /* Subheading size adjust kiya */
+    }
+
+    /* 🔑 FIX: Paragraph Text Wrapping */
+    .container-2 p,
+    .container-3 p,
+   .container-4 p {
+        text-align: center !important;
+        width: 100%;
+        font-size: 0.85rem !important; 
+        padding-inline: 0 !important;
+
+        max-width: 320px !important; 
+       padding-left: 6.2rem !important;
+       padding-right: -200rem !important;
+        /* margin: 0% auto; ko prefer kiya hai center karne ke liye */
+        margin: 0.5rem auto 0 auto !important; /* Top margin 0.5rem rakha */
+    }
+
+    /* Images Fix */
+    .container-2-right img,
+    .container-4-right img,
+    .container-3-left img {
+        margin-left: auto !important;
+        margin-right: auto !important;
+        display: block;
+        max-width: 80% !important; 
+        height: auto;
+    }
+    
+    .container-2-right img,
+    .container-4-right img {
+        order: 2; /* Image after Text */
+    }
+
+    .container-3-left img {
+        order: 1; /* Image before Text */
+        margin-bottom: 1.5rem !important; /* Space fix */
+       max-width: 80% !important; 
+        height: auto;
+        width:90% !important;
+        height:90% !important;
+    }
+    
+
+    .container-3-right {
+        order: 2; 
+    }
+    
+    /* Button Fix */
+    .container-4 .button {
+        width: 100%;
+        text-align: center;
+        margin-top: 1rem;
+        margin-left: -3rem !important;
+        order: 4; 
+    }
+    .fixed-footer{
+        margin-bottom: 4rem !important;
+    }
+    
+}
+
+@media (max-width: 414px) {
+
+
+       .sidebar-text {
+        /* Ab yeh container poori screen par faila hua bottom bar banega */
+        position: fixed;
+        bottom: 0;
+        left: 0; /* Left side se chipka hua */
+        width: 100%;
+        
+        /* Background color ko force karein */
+        background-color: #ffffff !important; 
+        
+        /* Z-index high rakhein taaki koi content iske upar na aaye */
+        z-index: 99999; 
+        
+        /* Shadow for clear visibility */
+        box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); 
+        
+        /* Zaroorat nahi, lekin safety ke liye */
+        text-align: center;
+        margin: 0 !important;
+        padding: 0 !important; /* Padding isko chota rakhega */
+    }
+
+    /* --- PORTFOLIO CONTACT TEXT FIX --- */
+    .sidebar-text h5 {
+        /* H5 ko koi position nahi denge, yeh parent ke andar center hoga */
+        position: static; 
+     
+        /* Bahut zyada padding ko theek kiya */
+        padding: 28rem 0rem !important; 
+           padding-left: 8rem !important;
+        /* Margin/Position reset karna zaroori hai */
+        margin: 0 auto !important; 
+        left: initial !important; /* Yeh 4rem wali problem theek ki */
+        font-size: small !important;
+        /* Force settings for layout */
+        width: auto !important; /* Ya phir 100% de sakte hain, par auto behtar hai */
+        display: block !important;
+        text-align: center !important; 
+        
+        /* Writing mode ko horizontal kiya */
+        writing-mode: initial !important; 
+        transform: none !important; 
+        
+        /* Background color isko nahi, parent ko denge */
+        background-color: transparent !important;
+    }
+
+
+    .right-sidebar {
+        margin-right: -1rem;
+    }
+
+
+    .html-2-container-2 h1,
+    .html-2-container-3 h1,
+    .html-2-container-4 h1,
+    .html-2-container-5 h1,
+    .html-2-container-6 h1,
+    .html-2-container-7 h1 {
+
+        font-size: 1rem;
+        text-align: center;
+
+    }
+
+    /* Second Page Headings */
+    .header-left h1 {
+        font-size: 1.5rem;
+        /* Font size kam kiya */
+        text-align: center;
+    }
+
+    .container-2 a,
+    .container-3 a,
+    .container-4 a {
+        margin-left: -2rem;
+    }
+
+    .container-2 h1,
+    .container-3 h1,
+    .container-4 h1 {
+        font-size: 1.2rem;
+        /* Font size kam kiya */
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 1rem;
+        margin-left: -3rem;
+    }
+
+    .html-2-container-2 p,
+    .html-2-container-3 p,
+    .html-2-container-4 p,
+    .html-2-container-5 p,
+    .html-2-container-6 p,
+    .html-2-container-7 p {
+        font-size: 0.7rem !important;
+        padding-inline: 2rem;
+    }
+
+    .container-2 p,
+    .container-3 p,
+    .container-4 p {
+        text-align: center;
+        font-size: 0.7rem;
+        /* Font size bahut kam kiya */
+        width: 100%;
+        max-width: 250px !important;
+        /* Content bahut narrow rahega */
+
+        /* Center alignment & Margin-left fix */
+        margin-left: -2rem !important;
+        margin-right: auto !important;
+
+        /* Paragraph Form Fix */
+        white-space: normal !important;
+
+        line-height: 1.4;
+    }
+
+
+
+    .header-left,
+    .header-right {
+        margin-left: -10rem !important;
+        margin-right: -10rem !important;
+        padding-left: 0rem !important;
+        padding-right: 0rem !important;
+        flex: 1 1 100%;
+    }
+
+    .container-3 .container-3-left img,
+    .html-2-container-1 .header-right img {
+        height: 120px;
+        /* Image size chota kiya */
+        width: 120px;
+        margin-left: 3rem !important;
+        display: block;
+    }
+
+    .contact-button {
+        font-size: x-small !important;
+        /* Button text bahut chota kiya */
+        padding-inline: 1rem !important;
+        padding-block: 0.1rem !important;
+        margin: 0% auto;
+        display: block;
+        margin-right: 2rem !important;
+        width: fit-content;
+    }
+
+    .header,
+    .container-2,
+    .container-3,
+    .container-4,
+    .html-2-container-2,
+    .html-2-container-3,
+    .html-2-container-4,
+    .html-2-container-5,
+    .html-2-container-6,
+    .html-2-container-7 {
+        /* FIX: Content ko sidebars ke liye jagah dene ke liye andar shift karein */
+        margin-left: 3rem !important;
+        margin-right: 3rem !important;
+        padding-left: 0.2rem !important;
+        padding-right: 0.2rem !important;
+        width: auto !important;
+
+        max-width: none !important;
+    }
+.html-2-container-2{
+            margin-left: 1rem !important;
+        margin-right: 1rem !important;
+        padding-left: 2rem !important;
+        padding-right:2rem !important;
+}
+
+
+    .header-content h1 {
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    .header-left h1 {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .contact-button a {
+        font-size: small !important;
+        padding-inline: 0.5rem !important;
+        padding-block: 0.1rem !important;
+        margin: 5px auto;
+        display: block;
+        width: fit-content;
+    }
+
+
+.fixed-footer {
+                flex-direction: column;
+                text-align: center;
+                padding: 90px 2rem;
+                margin-bottom: 3rem;
+            }
+
+
+}
+
+@media (max-width: 440px) {
+
+   /* 🔑 FIX: Paragraph Text Wrapping */
+    .container-2 p,
+    .container-3 p,
+   .container-4 p {
+        text-align: center !important;
+        width: 100%;
+        font-size: 0.85rem !important; 
+        padding-inline: 0 !important;
+
+        max-width: 320px !important; 
+       padding-left: 0.5rem !important;
+       padding-right: -200rem !important;
+        /* margin: 0% auto; ko prefer kiya hai center karne ke liye */
+        margin: 0.5rem auto 0 auto !important; /* Top margin 0.5rem rakha */
+    }
+
+    .logo {
+        height: 90px;
+        width: 90px;
+        margin-top: -15px;
+    margin-left: 4rem;
+      
+    }.container-4{
+        margin-bottom: -1rem !important;
+    }
+    
+    .logo-container {
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    top: 0; /* Top se shuru karein */
+    height: 50px;
+    z-index: 1000;
+    margin-left: -5rem;
+
+}       .sidebar-text {
+        /* Ab yeh container poori screen par faila hua bottom bar banega */
+        position: fixed;
+        bottom: 0;
+        left: 0; /* Left side se chipka hua */
+        width: 100%;
+        
+        /* Background color ko force karein */
+        background-color: #ffffff !important; 
+        
+        /* Z-index high rakhein taaki koi content iske upar na aaye */
+        z-index: 99999; 
+        
+        /* Shadow for clear visibility */
+        box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); 
+        
+        /* Zaroorat nahi, lekin safety ke liye */
+        text-align: center;
+        margin: 0 !important;
+        padding: 0 !important; /* Padding isko chota rakhega */
+    }
+
+    /* --- PORTFOLIO CONTACT TEXT FIX --- */
+    .sidebar-text h5 {
+        /* H5 ko koi position nahi denge, yeh parent ke andar center hoga */
+        position: static; 
+     
+        /* Bahut zyada padding ko theek kiya */
+        padding:1rem 0rem !important; 
+   
+        margin: 0 auto !important; 
+        left: initial !important; /* Yeh 4rem wali problem theek ki */
+        font-size: small !important;
+        /* Force settings for layout */
+        width: auto !important; /* Ya phir 100% de sakte hain, par auto behtar hai */
+        display: block !important;
+        text-align: center !important; 
+        
+        /* Writing mode ko horizontal kiya */
+        writing-mode: initial !important; 
+        transform: none !important; 
+        
+        /* Background color isko nahi, parent ko denge */
+        background-color: transparent !important;
+    }
+
+
+
+.fixed-footer {
+                flex-direction: column;
+                text-align: center;
+                padding: 90px 2rem;
+            }
+            
+            .footer-left, .footer-right, .footer-center {
+                margin: 2px 0;
+            }
+
+
+    .right-sidebar {
+       display: none;
+    }
+
+
+    .html-2-container-2 h1,
+    .html-2-container-3 h1,
+    .html-2-container-4 h1,
+    .html-2-container-5 h1,
+    .html-2-container-6 h1,
+    .html-2-container-7 h1 {
+
+        font-size: 1rem;
+        text-align: center;
+
+    }
+
+    /* Second Page Headings */
+    .header-left h1 {
+        font-size: 1.5rem;
+        /* Font size kam kiya */
+        text-align: center;
+    }
+
+    .container-2 a,
+    .container-3 a,
+    .container-4 a {
+        margin-left: -2rem;
+    }
+
+    .container-2 h1,
+    .container-3 h1,
+    .container-4 h1 {
+        font-size: 1.2rem;
+        /* Font size kam kiya */
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 1rem;
+        margin-left: -3rem;
+    }
+
+    .html-2-container-2 p,
+    .html-2-container-3 p,
+    .html-2-container-4 p,
+    .html-2-container-5 p,
+    .html-2-container-6 p,
+    .html-2-container-7 p {
+        font-size: 0.7rem !important;
+        padding-inline: 2rem;
+    }
+
+ 
+
+
+
+    .header-left,
+    .header-right {
+        margin-left: -10rem !important;
+        margin-right: -10rem !important;
+        padding-left: 0rem !important;
+        padding-right: 0rem !important;
+        flex: 1 1 100%;
+    }
+
+    .container-3 .container-3-left img,
+    .html-2-container-1 .header-right img {
+        height: 120px;
+        /* Image size chota kiya */
+        width: 120px;
+        margin-left: 3rem !important;
+        display: block;
+    }
+
+    .contact-button {
+        font-size: x-small !important;
+        /* Button text bahut chota kiya */
+        padding-inline: 1rem !important;
+        padding-block: 0.2rem !important;
+        margin: 5px auto;
+        display: block;
+        width: fit-content;
+    }
+
+    .header,
+    .container-2,
+    .container-3,
+    .container-4,
+    .html-2-container-2,
+    .html-2-container-3,
+    .html-2-container-4,
+    .html-2-container-5,
+    .html-2-container-6,
+    .html-2-container-7 {
+        /* FIX: Content ko sidebars ke liye jagah dene ke liye andar shift karein */
+        margin-left: 3rem !important;
+        margin-right: 3rem !important;
+        padding-left: 0.2rem !important;
+        padding-right: 0.2rem !important;
+        width: auto !important;
+
+        max-width: none !important;
+    }
+
+
+    .header-content h1 {
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    .header-left h1 {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .contact-button a {
+        font-size: small !important;
+        padding-inline: 0.5rem !important;
+        padding-block: 0.1rem !important;
+        margin: 5px auto;
+        display: block;
+        width: fit-content;
+    }
+
+
+
+
+    .html-3-container-1,
+    .html-3-container-2,
+    .html-3-container-3 {
+        flex-direction: column !important;
+        margin-left: 3rem !important;
+        /* Sidebar space */
+        margin-right: 3rem !important;
+        padding-left: 0.5rem !important;
+        padding-right: 0.5rem !important;
+        text-align: center !important;
+        /* Overall centering */
+    }
+
+    .html-3-header-left h1 {
+        font-size: 2rem !important;
+    }
+
+    .html-3-container-2 h1,
+    .html-3-container-3 h1 {
+        font-size: 1.2rem !important;
+    }
+
+    /* Paragraph Centering Fix */
+    .html-3-header-left p,
+    .html-3-container-2 p,
+    .html-3-container-3 p {
+        max-width: 220px !important;
+        /* Narrow width for centering */
+        margin-left: auto !important;
+        /* Center with auto margins */
+        margin-right: auto !important;
+        text-align: center !important;
+        font-size: 0.8rem !important;
+
+        /* Inline style overrides */
+        margin-top: 0.5rem !important;
+        color: gray !important;
+        font-weight: normal !important;
+    }
+
+    /* List (UL) Fix */
+    .html-3-container-2 ul {
+        list-style-position: inside;
+        padding-left: 0;
+        margin: 1rem auto;
+        max-width: 250px;
+        text-align: left;
+    }
+
+    .html-3-container-2 ul li {
+        margin-left: 0 !important;
+        text-align: left;
+        list-style-position: inside;
+        font-size: 0.75rem;
+    }
+
+    /* Image Sizing and Centering */
+    .html-3-header-right img {
+        width: 100% !important;
+        max-width: 300px !important;
+        margin: 1rem auto !important;
+    }
+
+    .html-4-container-1, 
+    .html-4-container-2, 
+    .html-4-container-3, 
+    .html-4-container-4 {
+        margin-left: 3rem !important; /* Final Sidebar Space */
+        margin-right: 3rem !important; 
+        padding-left: 0.5rem !important;
+        padding-right: 0.5rem !important;
+        text-align: center !important;
+    }
+
+    .html-4-header-left h1 { 
+        font-size: 2.5rem !important; 
+    }
+    .html-4-header-left p[style*="font-size:1.5rem"] {
+        font-size: 1.2rem !important; /* Digital Media Marketing heading */
+    }
+
+    /* All secondary headings */
+    .html-4-container-2 h1, 
+    .html-4-container-3 h1, 
+    .html-4-container-4 h1 { 
+        font-size: 1.4rem !important; 
+    }
+    
+    /* Paragraph Fix (Narrow and Centered) */
+    .html-4-header-left p, 
+    .html-4-container-2 p, 
+    .html-4-container-3 p,
+    .html-4-container-4 p {
+        max-width: 280px !important; 
+        margin-left: auto !important; 
+        margin-right: auto !important;
+        text-align: center !important;
+        font-size: 0.8rem !important;
+    }
+
+    /* Image Sizing */
+    .html-4-header-right img { 
+        width: 100% !important; 
+        max-width: 250px !important; 
+    }
+
+
+    .html-5-container-1, 
+    .html-5-container-2, 
+    .html-5-container-3 {
+        margin-left: 3rem !important; /* Final Sidebar Space */
+        margin-right: 3rem !important; 
+        padding-left: 0.5rem !important;
+        padding-right: 0.5rem !important;
+        text-align: center !important;
+    }
+
+    .html-5-container-1-left h1 { 
+        font-size: 2rem !important; 
+    }
+    .html-5-container-1-left p[style*="font-size:1.5rem"] {
+        font-size: 1.2rem !important; /* Where Vision Meets Code heading */
+    }
+
+    /* Paragraph Fix (Narrow and Centered) */
+    .html-5-container-1-left p, 
+    .html-5-container-2 p, 
+    .html-5-container-3 p {
+        max-width: 280px !important; 
+        margin-left: auto !important; 
+        margin-right: auto !important;
+        text-align: center !important;
+        font-size: 0.8rem !important;
+    }
+
+    /* Process Timeline H3 adjust kiya */
+    .html-5-container-3 h3 {
+        font-size: 1.2rem !important;
+    }
+
+    /* Expertise Cards ko poori width di */
+    .html-5-container-2 .col-md-4 {
+        flex: 0 0 100% !important; 
+        max-width: 100% !important;
+    }
+.html-5-container-3 h2{
+        font-size: 1.5rem !important;
+    }
+
+    .html-6-container-1, 
+    .html-6-container-2, 
+    .html-6-container-3,
+    .html-6-container-4 {
+        margin-left: 3rem !important; /* Final Sidebar Space */
+        margin-right: 3rem !important; 
+        padding-left: 0.5rem !important;
+        padding-right: 0.5rem !important;
+        text-align: center !important;
+    }
+
+    /* Heading Sizes */
+    .html-6-header-right h1 { 
+        font-size: 2.5rem !important; 
+    }
+    .html-6-header-right p[style*="font-size:1.5rem"] {
+        font-size: 1.2rem !important; 
+    }
+    .section-title {
+        font-size: 2rem !important;
+    }
+
+    /* Paragraph Fix (Narrow and Centered) */
+    .html-6-header-right p, 
+    .service-card p,
+    .usp-item p {
+        max-width: 280px !important; 
+        margin-left: auto !important; 
+        margin-right: auto !important;
+        text-align: center !important;
+        font-size: 0.8rem !important;
+    }
+
+    /* Cards/Items ko poori width di */
+    .html-6-container-2 .col-md-4,
+    .html-6-container-3 .col-md-3.usp-item {
+        flex: 0 0 100% !important; 
+        max-width: 100% !important;
+        margin-bottom: 20px !important;
+    }
+    
+    /* Card/USP headings aur icons */
+    .service-card h3,
+    .usp-item h4 {
+        font-size: 1.2rem !important;
+    }
+    .service-icon, .usp-icon {
+        font-size: 2rem !important;
+    }
+
+    .html-7-container-1, 
+    .html-7-container-2, 
+    .html-7-container-3,
+    .html-7-container-4 {
+        margin-left: 3rem !important; 
+        margin-right: 3rem !important; 
+        padding-left: 0.5rem !important;
+        padding-right: 0.5rem !important;
+    }
+
+    /* Heading Sizes */
+    .html-7-container-1-left h1 { 
+        font-size: 2.5rem !important; 
+    }
+    
+    /* Paragraphs ki readability ke liye max-width set ki */
+    .html-7-container-1-left p, 
+    .custom-card p,
+    .process-step p,
+    .html-7-container-4 p {
+        max-width: 280px !important; 
+        margin-left: auto !important; 
+        margin-right: auto !important;
+        font-size: 0.8rem !important;
+    }
+
+    /* Cards/Items ko poori width di */
+    .html-7-container-3 .col-md-4,
+    .process-step {
+        flex: 0 0 100% !important; 
+        max-width: 100% !important;
+        margin-bottom: 15px !important;
+    }
+    
+    /* Button size chota kiya */
+    .custom-btn-glow-large {
+        font-size: 0.8rem !important;
+        padding: 0.5rem 1rem !important;
+    }
+
+
+    .html-8-container { 
+        width: 50px !important; 
+        height: 25px !important;
+    }
+    .html-8-logo {
+        max-width: 100px !important;
+        margin-left: 2rem !important;
+    }
+    
+    /* Footer Fixes (Jo aapne pichli baar maange the) */
+    .fixed-footer {
+        flex-direction: column !important;
+        height: auto !important;
+        padding: 1rem 0 !important;
+    }
+    .footer-center {
+        order: 3 !important; 
+        font-size: 0.7rem !important;
+        margin-top: 0.5rem !important;
+    }
+    .footer-left, .footer-right {
+        order: 1 !important; 
+        margin: 0.3rem 0 !important;
+        gap: 15px !important;
+    }
+    
+    /* Content Margin */
+    .html-8-container-1 {
+        margin-inline: 1rem !important;
+    }
+
+ 
+
+
+}
+
+@media (max-width:344px) {
+
+
+     .sidebar-text {
+        /* Ab yeh container poori screen par faila hua bottom bar banega */
+        position: fixed;
+        bottom: 0;
+        left: 0; /* Left side se chipka hua */
+        width: 100%;
+        
+        /* Background color ko force karein */
+        background-color: #ffffff !important; 
+        
+        /* Z-index high rakhein taaki koi content iske upar na aaye */
+        z-index: 99999; 
+        
+        /* Shadow for clear visibility */
+        box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); 
+        
+        /* Zaroorat nahi, lekin safety ke liye */
+        text-align: center;
+        margin: 0 !important;
+        padding: 0 !important; /* Padding isko chota rakhega */
+    }
+
+    /* --- PORTFOLIO CONTACT TEXT FIX --- */
+    .sidebar-text h5 {
+        /* H5 ko koi position nahi denge, yeh parent ke andar center hoga */
+        position: static; 
+     
+        /* Bahut zyada padding ko theek kiya */
+        padding: 1rem 0rem !important; 
+          
+        /* Margin/Position reset karna zaroori hai */
+        margin: 0 auto !important; 
+        left: initial !important; /* Yeh 4rem wali problem theek ki */
+        font-size: small !important;
+        /* Force settings for layout */
+        width: auto !important; /* Ya phir 100% de sakte hain, par auto behtar hai */
+        display: block !important;
+        text-align: center !important; 
+        
+        /* Writing mode ko horizontal kiya */
+        writing-mode: initial !important; 
+        transform: none !important; 
+        
+        /* Background color isko nahi, parent ko denge */
+        background-color: transparent !important;
+    }
+
+    .right-sidebar {
+        margin-right: -1rem;
+
+    }
+
+    .right-sidebar .line {
+        width: 20px;
+    }
+
+    .right-sidebar .line-active {
+        width: 25px !important;
+    }
+
+    .html-2-container-2 h1,
+    .html-2-container-3 h1,
+    .html-2-container-4 h1,
+    .html-2-container-5 h1,
+    .html-2-container-6 h1,
+    .html-2-container-7 h1 {
+
+        font-size: 1rem;
+        text-align: center;
+
+    }
+
+    /* Second Page Headings */
+    .header-left h1 {
+        font-size: 1.2rem;
+        /* Font size kam kiya */
+        text-align: center;
+    }
+
+    .container-2 a,
+    .container-3 a,
+    .container-4 a {
+        margin-left: -2rem;
+    }
+
+    .container-2 h1,
+    .container-3 h1,
+    .container-4 h1 {
+        font-size: 1.2rem;
+        /* Font size kam kiya */
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 1rem;
+        margin-left: -3rem;
+    }
+
+    .html-2-container-2 p,
+    .html-2-container-3 p,
+    .html-2-container-4 p,
+    .html-2-container-5 p,
+    .html-2-container-6 p,
+    .html-2-container-7 p {
+        font-size: 0.7rem !important;
+        padding-inline: 2rem;
+    }
+
+   
+
+
+
+    .header-left,
+    .header-right {
+        margin-left: -10rem !important;
+        margin-right: -10rem !important;
+        padding-left: 0rem !important;
+        padding-right: 0rem !important;
+        flex: 1 1 100%;
+    }
+
+    .container-3 .container-3-left img {
+        height: 120px;
+        /* Image size chota kiya */
+        width: 120px;
+        margin-left: 3rem !important;
+        display: block;
+    }
+
+    .html-2-container-1 .header-right img {
+        margin-left: 1rem !important;
+    }
+
+    .contact-button {
+        font-size: x-small !important;
+        /* Button text bahut chota kiya */
+        padding-inline: 0.2rem !important;
+        padding-block: 0rem !important;
+        margin: 5px auto;
+        display: block;
+        margin-left: -0.1rem !important;
+        margin-right: -0.1rem !important;
+        width: fit-content;
+    }
+
+    .header,
+    .container-2,
+    .container-3,
+    .container-4,
+    .html-2-container-2,
+    .html-2-container-3,
+    .html-2-container-4,
+    .html-2-container-5,
+    .html-2-container-6,
+    .html-2-container-7 {
+       
+        padding-left: 2rem !important;
+        padding-right: 2rem !important;
+        width: auto !important;
+
+        max-width: none !important;
+    }
+
+
+    .header-content h1 {
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    .header-left h1 {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .contact-button a {
+        font-size: small !important;
+        padding-inline: 0.5rem !important;
+        padding-block: 0.1rem !important;
+        margin: 5px auto;
+        display: block;
+        width: fit-content;
+    }
+
+  
+
+    
+
+
+
+
+}
+
+@media (max-width:390px) {
+    .html-2-container-1 .header-right img {
+        margin-left: 1rem !important;
+    }
+
+    .right-sidebar {
+        margin-right: -1rem;
+
+    }
+      .header-right img{
+        padding-left: 2.5rem !important;
+        width:60% !important;
+        height:60% !important;
+    }
+    .right-sidebar .line {
+        width: 20px;
+    }
+
+    .right-sidebar .line-active {
+        width: 25px !important;
+    }
+        .html-5-container-2 h2, .html-5-container-3 h2 {
+        font-size: 1rem !important;
+    }
+      /* Button Fix */
+    .container-4 .button {
+        width: 100%;
+        text-align: center;
+        margin-top: 1rem;
+        margin-left: -1rem !important;
+        order: 4; 
+    }
+
+      .container-4{
+        margin-bottom: -1rem !important;
+      }
+}
+@media (max-width: 992px) {
+    .main-navbar {
+        height: auto; /* Allow height to adjust */
+        padding: 10px 0;
+        justify-content: space-between; /* Space out logo and toggle */
+    }
+
+    .main-navbar img {
+        margin-left: 1rem !important; /* Adjust logo margin */
+    }
+
+    .navbar-toggler {
+        display: block; /* Show toggle button on small screens */
+    }
+
+    .nav-links-desktop {
+        /* This is the container for the <li> items */
+        position: absolute;
+        top: 100%; /* Position below the main navbar */
+        left: 0;
+        width: 100%;
+        background-color: rgb(255, 255, 255);
+        flex-direction: column; /* Stack links vertically */
+        padding: 10px 0;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        display: none; /* Hidden by default - managed by JavaScript/Bootstrap logic */
+        opacity: 0; /* Use transition for smooth appearance */
+        transition: opacity 0.3s ease-in-out;
+    }
+
+    /* Style for when the menu is open (use the class added by the JS/Bootstrap toggle) */
+    .nav-links-desktop.open {
+        display: flex;
+        opacity: 1;
+    }
+
+    .main-navbar li {
+        margin: 10px 0; /* Vertical spacing for menu items */
+        padding-left: 0; /* Remove horizontal padding from <li> */
+        text-align: center;
+        width: 100%;
+    }
+
+    .main-navbar li a {
+        padding: 10px 20px;
+        display: block; /* Make links full width */
+    }
+
+    /* Reset the large left margin on the first item for desktop */
+    .main-navbar li:nth-child(1) {
+        margin-left: 0 !important;
+    }
+}
+
+
+@media (max-width: 1200px) {
+    /* Reduce margins on all primary containers */
+    .html-9-container-2,
+    .html-9-container-3,
+    .html-9-container-4,
+    .html-9-container-5,
+    .html-9-container-6 {
+        margin-inline: 2rem; /* Reduce side margins */
+        padding-left: 2rem; /* Reduce left padding */
+    }
+}
+
+
+
+@media (max-width: 992px) {
+    .html-9-container-flex {
+        flex-direction: column; /* Stack image and features vertically */
+        gap: 30px;
+    }
+
+    .html-9-container-4-image,
+    .html-9-container-4-grid {
+        max-width: 100%; /* Take full width */
+        flex: none;
+    }
+}
+
+@media (max-width: 576px) {
+    .small-cards-row {
+        flex-direction: column; /* Stack small cards vertically */
+    }
+    
+}
+
+@media (max-width: 992px) {
+    .portfolio-item {
+        /* Two items per row for tablet */
+        flex: 0 0 calc(50% - 10px); /* 50% width minus half the gap */
+    }
+}
+
+@media (max-width: 576px) {
+    .portfolio-grid {
+        gap: 10px; /* Smaller gap */
+    }
+    .portfolio-item {
+        /* One item per row for mobile */
+        flex: 0 0 100%;
+        margin-bottom: 10px;
+    }
+}
+
+
+
+@media (max-width: 480px) {
+    .tech-grid {
+        /* One item per row for very small screens */
+        grid-template-columns: 1fr;
+    }
+}
+
+
